@@ -105,7 +105,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Find Me On...',
             items: [
               {
                 label: 'X (Formerly Twitter)',
@@ -126,7 +126,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://www.freecodecamp.org/news/author/FahimFBA/',
               },
               {
                 label: 'GitHub',
