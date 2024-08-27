@@ -6,6 +6,7 @@ I would recommend you to ensure at least 16GB of RAM in your computer. The highe
 
 ## Table of Content
 - [Install WSL](#install-wsl)
+- [Make WSL2 the Default One](#make-wsl2-the-default-one)
 
 
 ### Install WSL
@@ -35,3 +36,46 @@ wsl --set-default-version 2
 ```
 
 It will also tell you, "The operation completed successfully".
+
+
+### Update and Upgrade Packages 
+
+You need to update the Ubuntu system in WSL, and upgrade the required ones. If you are already in a Ubuntu terminal, then you can directly apply the following commands.
+
+If you have closed the Ubuntu terminal, then you can open the Ubuntu terminal anytime you want in one of the following two ways:
+
+- Search "Ubuntu" in the search bar from the Windows taskbar. Then open the termina.
+
+![Search Ubuntu terminal](/img/search-ubuntu-terminal.png)
+
+![Ubuntu terminal](/img/ubuntu-terminal.png)
+
+- Open the Windows Terminal. Click on the drop down menu. Click on **Ubuntu**.
+
+![Ubuntu from Windows Terminal](/img/ubuntu-terminal-in-windows-terminal.png)
+
+Now apply the following command for updating the system.
+
+```bash
+sudo apt update
+```
+
+Give your password when it wants, and then simply press the "Enter" key.
+
+![Update Ubuntu 1](/img/update-1.png)
+
+![Update Ubuntu 2](/img/update-2.png)
+
+After it finishes updating, upgrade the recommended packages by using the following command.
+
+```bash
+sudo apt upgrade
+```
+
+![Upgrade Ubuntu 1](/img/upgrade-1.png)
+
+![Upgrade Ubuntu 2](/img/upgrade-2.png)
+
+---
+
+If you have completed till now, then your machine's WSL portion is ready to go! 👏
