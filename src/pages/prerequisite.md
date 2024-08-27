@@ -5,6 +5,7 @@ Before going through the process to install all the necessary components to star
 Here, we will go through all the necessary steps that must be ensured and therefore are considered as pre-requisite.
 
 ## Table of Content
+- [Enable Virtualization (in BIOS)](#enable-virtualization-in-bios)
 - [Windows Version](#windows-activation)
 - [Windows Activation](#windows-activation)
     - [Check Windows Activation Status](#check-windows-activation-status)
@@ -14,6 +15,10 @@ Here, we will go through all the necessary steps that must be ensured and theref
 - [Reboot Your Computer](#reboot-your-computer)
 - [Install the Latest Windows PowerShell](#install-the-latest-windows-powershell)
 - [Update Windows Terminal from Microsoft Store](#update-windows-terminal-from-microsoft-store)
+
+### Enable Virtualization (in BIOS)
+
+Make sure that you have enabled the **Virtualization** in your BIOS. If you are using a Gigabyte motherboard, then you will get that as **SVM** settings.
 
 
 ### Windows Version
