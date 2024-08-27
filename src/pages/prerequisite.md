@@ -5,6 +5,7 @@ Before going through the process to install all the necessary components to star
 Here, we will go through all the necessary steps that must be ensured and therefore are considered as pre-requisite.
 
 ## Table of Content
+- [Enable Virtualization (in BIOS)](#enable-virtualization-in-bios)
 - [Windows Version](#windows-activation)
 - [Windows Activation](#windows-activation)
     - [Check Windows Activation Status](#check-windows-activation-status)
@@ -14,6 +15,11 @@ Here, we will go through all the necessary steps that must be ensured and theref
 - [Reboot Your Computer](#reboot-your-computer)
 - [Install the Latest Windows PowerShell](#install-the-latest-windows-powershell)
 - [Update Windows Terminal from Microsoft Store](#update-windows-terminal-from-microsoft-store)
+- [Make Windows Terminal the Default One and the New PowerShell the Default PowerShell](#make-windows-terminal-the-default-one-and-the-new-powershell-the-default-powershell)
+
+### Enable Virtualization (in BIOS)
+
+Make sure that you have enabled the **Virtualization** in your BIOS. If you are using a Gigabyte motherboard, then you will get that as **SVM** settings.
 
 
 ### Windows Version
@@ -84,6 +90,19 @@ We are going to use the [Windows Terminal](https://apps.microsoft.com/detail/9n0
 Therefore, make sure that it is already updated to the latest version from Microsoft Store.
 
 ![Microsoft Terminal](/img/microsoft-terminal.png)
+
+---
+
+### Make Windows Terminal the Default One and the New PowerShell the Default PowerShell
+
+Open the Windows terminal. Click the drop-down button and go to settings.
+
+From there, change the "Default profile" to **PowerShell**.
+Also, change the "Default terminal application" to **Windows Terminal**.
+
+Then click "Save" and exit the Windows Terminal.
+
+![Configure Windows Terminal](/img/config-windows-terminal.png)
 
 ---
 
