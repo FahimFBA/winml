@@ -4,7 +4,7 @@ If you are coming to this website for the first time, then my recommendation for
 
 However, if you are sure about what you want to do, then you can simply select the section that you need, and you can jump over to that section immediately!
 
-### It takes a lot of time and effort to initiate and maintain these types of complete guideline based project. Therefore, please star (⭐) [this repository](https://github.com/FahimFBA/WinML), and also please make sure to share it wherever you can and whenever you can!
+> 👉 It takes a lot of time and effort to initiate and maintain these types of complete guideline based project. Therefore, please star (⭐) [this repository](https://github.com/FahimFBA/WinML), and also please make sure to share it wherever you can and whenever you can!
 
 
 ## Sequences for Making Your Windows OS ML/DL Ready (Right now!)
