@@ -1,6 +1,8 @@
-# Website
+# WinML
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Docs site for doing ML/DL stuff on Windows — WSL, Miniconda, and related setup guides. Built with [Docusaurus](https://docusaurus.io/).
+
+Live at https://win-ml.vercel.app/
 
 ### Installation
 
